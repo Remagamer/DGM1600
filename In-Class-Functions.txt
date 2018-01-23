@@ -1,0 +1,6 @@
+Functions
+
+Functions are pieces of code that we can use by calling them. They can be used multiple times for different things, and there are some built in functions such as keyboard commands, mouseclicks and starts that have special triggers.
+Functions are not executed unless they are called.
+
+Syntax is the way the computer knows what we're talking about. Just like there's rules to speaking or writing English, there are rules to speaking a computer language. You have to use proper syntax or the computer won't understand what you're trying to do.
