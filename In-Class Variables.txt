@@ -1,0 +1,35 @@
+//Variables are containers for different kinds of information.
+
+//If I wanted to store something...like
+
+ public string Name;
+
+//A name I would use that.
+
+//Then I can use it in something like this...
+
+ print("My name is" + Name);
+
+//And it would print "My name is JEFF", supposing I set the name to JEFF.
+
+//But if we want to use numbers...
+
+//We need to use
+
+ public int FoodCount
+
+//Which is a whole number. It's useful!
+
+//We can use it in the same way as a String.
+
+ print("I have this much food:" + FoodCount);
+
+//And that would print "I have this much food:345", supposing I set the FoodCount to 345.
+
+//But if we want a number like 34.5, we need to use Floats.
+
+//Floats are more expensive to use but can hold more complicated numbers than Ints.
+
+//And that's my understanding of variables!
+
+ 
