@@ -1,0 +1,16 @@
+So for my If Statements explanation...
+
+I'll show some stuff from class.
+
+		if(Name == "Dog") {
+			print("Bark!");
+		}
+		if(Name == "Cat") {
+			print("Meow!");
+		}
+
+Essentially, an If statement is exactly what you'd think it is.
+
+"IF (the value of Name) is equal to "Dog" then I should print "Bark!""
+
+It's a question you ask, and if the answer is what you say it should be, it does work. If it isn't, it doesn't. EZ PZ.
