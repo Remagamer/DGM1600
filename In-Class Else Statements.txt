@@ -1,0 +1,52 @@
+An if statement is a thing that says if this is true, do this. But an else statement is basically an addon to that that makes it into 
+"If this is true, do this. If it's not, do this instead."
+
+for instance...
+
+		if(Name == "Cat") {
+			print("Meow!");
+		}
+		else
+		{
+			print("I am not a cat.");	
+		}
+Or...
+
+		if(Name == "Dog") {
+			print("Bark!");
+		}
+		else
+		{
+			print("I am not a dog.");	
+		}
+You could use it to count food, too.
+
+
+		if(FoodCount == 0) {
+			print("I have no food!");
+		}
+		else
+		{
+			print("I have this much food:" + FoodCount);	
+		}
+
+Or measure health.
+
+		if(Health == 0) {
+			print("You're dead as a dead guy, dead guy.");
+		}
+		else
+		{
+			print("Everything is A-OK!");	
+		}
+Or even add in a password!
+
+		if(Password == "hunter2") {
+			print("You got a secret!");
+		}
+		else
+		{
+			print("You get NOTHING!");	
+		}
+
+So else statements can be very useful.
