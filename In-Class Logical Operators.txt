@@ -1,0 +1,28 @@
+So logical operators are basically additional conditions you can add.
+
+so if I want something to test for 2 things...
+
+I can say...
+
+if x equals something AND y equals something...
+
+or...
+
+if x equals something AND y equals something AND z equals something...
+
+So it's a way of testing multiple things in an if.
+
+Now there's another kind. Say I want something to happen if this OR that.
+
+I can say...
+
+if x equals something+1 OR x equals something-1 ...
+
+then it'll do something if either of those are true.
+
+you can combine these for different effects.
+
+
+The AND is & while the OR is |.
+
+There is also a conditional || that only evaluates operands until one is found true.
