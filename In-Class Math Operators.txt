@@ -1,0 +1,67 @@
+So here's the deal with math operators.
+
+In math you have addition, subtraction, and all that.
+
+In C# you also have these, but you have some more.
+
+All the usual suspects behave as you'd expect...
+
+2 + 4 = 6
+
+4 - 2 = 2
+
+4 * 2 = 8
+
+4 / 2 = 2
+
+But there's also some new ones.
+
+++ adds one...so if A is 4 and I say A++; then A will be 5.
+
+-- decreases one...so if A is 4 and I say A--; then A will be 3.
+
+Now we also have comparative operators.
+
+Equal, or =, is similar to these.
+
+== checks if each side of the == is the same.
+
+so...
+
+A == A is true.
+A == B is not true.
+4 == 4 is true.
+4 == 2 is not true.
+
+See?
+
+But we can do much more.
+
+We can use != which checks if each side is NOT the same.
+
+So...
+
+A != A is not true.
+A != B is true.
+4 != 4 is not true.
+4 != 2 is true.
+
+See?
+
+We can also use Greater Thans or Less Thans.
+
+So...
+
+4 > 2 is true.
+2 > 4 is not true.
+2 < 4 is true.
+4 < 2 is not true.
+
+We can also use Greater Than Or Equal Tos and vice versa.
+
+4 >= 4 is true.
+4 <= 4 is true.
+
+Very useful stuff.
+
+
