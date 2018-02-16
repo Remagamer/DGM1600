@@ -1,0 +1,15 @@
+Homework: Lists
+
+Lists are basically arrays but more flexible.
+
+with an array you need to say...
+
+public Int[] ArrayOfInts;
+
+but with a list you need to say...
+
+public List<int> ListOfInts;
+
+And you can use lists for more than you can use arrays because of the flexibility of dealing with them.
+
+Arrays are less versatile.

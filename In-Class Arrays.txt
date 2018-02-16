@@ -1,0 +1,21 @@
+In Class Arrays
+
+So arrays are basically a lot of a variable type.
+
+I could go...
+
+public Int 1 = 1;
+public Int 2 = 1;
+public Int 3 = 1;
+
+...and so on and so forth.
+
+But that's no good when I could go...
+
+public int[] Ints;
+
+and set the size to whatever I want and then it's done. Just like that.
+
+EZ PZ
+
+GG WP NO RE

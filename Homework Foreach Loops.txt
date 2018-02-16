@@ -1,0 +1,15 @@
+Homework: Foreach Loops
+
+There are a lot of loops, but foreach works with arrays and lists in a unique way. It iterates over every item in the list the same way.
+
+		foreach (var score in HighScores)
+		{
+			if (score >= 1000)
+			{
+				print(score);
+			}
+		}
+
+so in this code sample, for every value (called score here) in the array HighScores, check if their value is above or equal to 1000, and if so print the value.
+
+They're pretty cool that way.
