@@ -1,0 +1,33 @@
+Homework: Switch Statements
+
+So here's the deal with switches. Switches let me do a whole lot with very little.
+
+Say I have a cheat code system and I want to compare my input to a lot of things.
+I can say...
+
+If (Code == "Noclip") {
+	//activate noclip
+}
+If (Code == "All Beans") {
+	//activate all beans
+}
+If (Code == "Mario 2") {
+	//Mario 2
+}
+
+...and so on and so forth. but that's inefficient when compared to switches. with switches I can say...
+
+switch (Code)
+{
+	case "Noclip":
+		//activate noclip
+		break;
+	case "All Beans":
+		//activate all beans
+		break;
+	case "Mario 2":
+		//Mario 2
+		break;
+}
+
+And it'll do these comparisons much faster with less work! You should always use switches if you're lining up more than a few ifs.
