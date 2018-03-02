@@ -1,0 +1,14 @@
+Homework Functions With Parameters.
+
+The deal with functions that have parameters can act differently based on those parameters.
+
+so I could say...
+
+	AddMarios(int number)
+	{
+		Marios += number;
+	}
+
+...and that would add the specified amount of Marios.
+
+With simple functions like that it seems lame, but when you get really powerful functions with similar functionality it is a thing of beauty.

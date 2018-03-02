@@ -1,0 +1,19 @@
+Homework Functions With Return.
+
+The deal with functions that have a return is that a function can return a value to whatever called it.
+
+so I could say...
+
+	HowManyMarios()
+	{
+		//check how many marios there are.
+		return marioCount;
+	}
+
+And then I could say...
+
+	int marioCount = HowManyMarios();
+
+...and that would count the amount of Marios.
+
+It's like magic.

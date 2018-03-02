@@ -1,0 +1,13 @@
+Homework: For Loops
+
+For Loops are neato. They let you pass something into the loop and iterate on it every loop,
+And they're a big part of making games.
+For instance, I could say...
+
+for(int i = 0; i < Marios; i++)
+{
+	//Do the mario!
+}
+
+And that would Do The Mario as long as the "i" is smaller than the Marios. you could use it
+to iterate on every item in a list, doing something based on that. It's really cool.

@@ -1,0 +1,9 @@
+Homework: Void Functions
+
+So what the deal with Void functions is basically this:
+
+functions can return a value based on what they do.
+
+so you could have a function that adds the player's x with the camera x and returns that when it's used.
+
+but Void Functions don't return anything. The void tag specifically means they return no values.
