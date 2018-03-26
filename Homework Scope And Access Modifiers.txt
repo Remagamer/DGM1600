@@ -1,0 +1,42 @@
+So the dealio of Scope and Access Modifiers is this: when you define something, you can set the scope modifier.
+There's three as far as I know:
+
+Public
+
+Public scoped things are accessible by EVERYTHING. Anything inside, outside, or derived from the source can see, reference and change it.
+
+So if in Script A I say:
+
+	public int Mario = 10;
+
+Then in Script B I can say
+
+	Mario += 10;
+
+And it'll work.
+
+Private
+
+Private scoped things are accessible by ONLY the thing it's defined in. Even derived things can't see it.
+
+So if in Script A I say:
+
+	private int Luigi = 5;
+
+In Script B, I can't even see it in autocomplete. It doesn't exist outside of Script A.
+
+Protected
+
+Protected things are accessible only in the thing it's defined in and its derivatives.
+
+So if in Script A I say:
+
+	protected int Waluigi = 9999;
+
+Then in any derivative of Script A I can say:
+
+	Waluigi += 1337;
+
+And it'll work.
+
+But it won't work in Script B or Script C, only derivatives of Script A.
